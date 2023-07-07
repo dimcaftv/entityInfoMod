@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "entityinfo",
+  "version": "${version}",
+  "name": "EntityInfo",
+  "description": "Mod for tracking entities",
+  "authors": [
+    "dimcaftv"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/entityinfo/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "entityinfogroupid.EntityInfoInitializer"
+    ]
+  },
+  "mixins": [
+    "entityInfo.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
